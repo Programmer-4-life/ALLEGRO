@@ -10,6 +10,12 @@ firebase-debug.*.log*
 # Firebase cache
 .firebase/
 
+# firebase configuration files
+firebase.json
+
+#firebase deployment files
+.firebaserc
+
 # Firebase config
 
 # Uncomment this if you'd like others to create their own Firebase project.
@@ -44,6 +50,9 @@ bower_components
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
+#build folder
+build/
+
 # Dependency directories
 node_modules/
 
@@ -64,3 +73,5 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+
